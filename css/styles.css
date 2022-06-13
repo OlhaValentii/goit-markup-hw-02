@@ -204,7 +204,8 @@ body {
     border: none;
 }
 
-.portfolio-filter-btnn:active {
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
     color: var(--secondary-accent-txt-cl);
     background-color: var(--accent-bg-cl);
 }
@@ -215,7 +216,6 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-txt-cl);
-    text-decoration: none;
 }
 
 .portfolio-list-item-text {
@@ -224,7 +224,6 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
-    text-decoration: none;
 }
 
 /* footer */
